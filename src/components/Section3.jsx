@@ -4,7 +4,7 @@ import Shadow from '../asset/shadow.svg'
 
 function Section3() {
   return (
-    <div className='flex justify-center items-center container mx-auto relative'>
+    <div className='flex justify-center items-center max-w-6xl container mx-auto relative'>
       <div>
         <p className='leading-6 text-5xl font-semibold mb-5 ' >Brown Sugar <br/> <br /> Oatmea</p>
         <p className='opacity-60 leading-6 text-base mb-9'>

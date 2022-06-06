@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../asset/images-removebg-preview.png'
 function Navbar() {
   return (
-    <div className='flex  justify-between items-center h-20 container mx-auto'>
+    <div className='flex  justify-between items-center h-20 max-w-6xl container mx-auto'>
       <img className='w-20 h-20 cursor-pointer' src={Logo} />
       <ul className='flex'>
         <li className='px-5 cursor-pointer text-lg font-normal leading-4 text-black opacity-60 hover:text-red-600 hover:text-lg hover:font-bold '>Home</li>

@@ -7,7 +7,7 @@ import Pink from '../asset/pinkcrycl.svg'
 
 function Main() {
   return (
-    <div className='bg-rose-100  relative container mx-auto px-10'>
+    <div className='bg-rose-100  relative max-w-6xl container mx-auto px-10'>
     <Navbar/>
     <Hero/>
     <img className='absolute top-96 right-8 ' src={Pink}/>
